@@ -27,7 +27,7 @@
     {
         "defaults":
         {
-        	"backgroundImage": "C:/Users/gabe/windows-configs/catbug-and-bmo.jpg",
+        	"backgroundImage": "C:/Users/gabek/windows-configs/catbug-and-bmo.jpg",
         	// "fontFace": "CaskaydiaCove NF",
             "fontFace": "Cascadia Code PL",
             "backgroundImageOpacity": 0.3,
@@ -47,10 +47,10 @@
             	"guid": "{91f8b775-7ab3-4e10-bf4b-7f7fa42ea9c3}",
         		"name": "TGBA",
         		"commandline": "powershell.exe",
-        		"startingDirectory": "C:\\Users\\gabe\\code\\Crossroads-Arena",
+        		"startingDirectory": "C:\\Users\\gabek\\code\\Crossroads-Arena",
         		"tabColor": "#468CBF",
         		"hidden": false,
-        		"icon": "C:\\Users\\gabe\\code\\Crossroads-Arena\\icon.png"
+        		"icon": "C:\\Users\\gabek\\code\\Crossroads-Arena\\icon.png"
         	},
         	{
             	"guid": "{c791b334-3b0e-418b-ade8-22981efb50e0}",
