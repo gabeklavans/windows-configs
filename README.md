@@ -24,3 +24,8 @@ mklink C:\Users\gabek\AppData\Roaming\Rainmeter\Rainmeter.ini C:\Users\gabek\win
 ```
 mklink /D C:\Users\gabek\AppData\Roaming\Rainmeter\Layouts C:\Users\gabek\windows-configs\Rainmeter\Layouts
 ```
+
+## PowerToys
+```
+mklink %LocalAppData%\Microsoft\PowerToys\FancyZones\zones-settings.json C:\Users\gabek\windows-configs\zones-settings.json
+```
