@@ -131,6 +131,12 @@
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemDrive%/QMK_MSYS/shell_connector.cmd",
+                "guid": "{6e53d126-04f8-4b6e-ae15-f8acc232e6cf}",
+                "icon": "%SystemDrive%/QMK_MSYS/icon.ico",
+                "name": "QMK MSYS"
             }
         ]
     },
