@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -15,17 +16,17 @@
             {
                 "action": "splitPane",
                 "profile": "LadderHell",
-                "split": "vertical"
+                "split": "right"
             },
             "keys": "alt+shift+5"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": "find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -44,19 +45,18 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.80000000000000004,
             "backgroundImage": "C:/Users/gabek/windows-configs/catbug-and-bmo.jpg",
             "backgroundImageOpacity": 0.29999999999999999,
             "font": 
             {
                 "face": "CaskaydiaCove NF"
             },
+            "opacity": 80,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
@@ -79,7 +79,6 @@
                 "tabColor": "#E74856"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -111,7 +110,6 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "acrylicOpacity": 0.75,
                 "background": "#000000",
                 "closeOnExit": "graceful",
                 "colorScheme": "Campbell",
@@ -127,6 +125,7 @@
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -137,6 +136,62 @@
                 "guid": "{6e53d126-04f8-4b6e-ae15-f8acc232e6cf}",
                 "icon": "%SystemDrive%/QMK_MSYS/icon.ico",
                 "name": "QMK MSYS"
+            },
+            {
+                "guid": "{0ec95e53-cc91-5edf-9d66-a8b107843665}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{e937b1ad-87c3-5c65-86f1-cf4da309d872}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d2d642e0-df45-50cd-b066-5c3bdb722bdb}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{496d2115-0f45-5aa4-a63a-0656409ff3ed}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{98367e73-cc83-5627-b5bf-78110e9e0e7c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3b67e4d5-b65e-590c-a080-89a4466eee66}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "ssh dabe@192.168.1.2",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "size": 12
+                },
+                "guid": "{1e0377b0-4691-46e3-85c6-5703cc18071a}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "dabe@l33ts3rv3r",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
