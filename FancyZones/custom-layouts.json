@@ -1,0 +1,64 @@
+{
+  "custom-layouts": [
+    {
+      "uuid": "{72A84D87-23E5-4AFB-9111-862314D47489}",
+      "name": "Left-Leaning",
+      "type": "canvas",
+      "info": {
+        "ref-width": 2560,
+        "ref-height": 1032,
+        "zones": [
+          {
+            "X": 0,
+            "Y": 0,
+            "width": 985,
+            "height": 1032
+          },
+          {
+            "X": 985,
+            "Y": 454,
+            "width": 1574,
+            "height": 577
+          },
+          {
+            "X": 985,
+            "Y": 0,
+            "width": 1574,
+            "height": 494
+          }
+        ],
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{77FB6175-72F1-4F55-91D6-868AE6F8B478}",
+      "name": "Left-Leaning (TaskBar)",
+      "type": "canvas",
+      "info": {
+        "ref-width": 2560,
+        "ref-height": 1032,
+        "zones": [
+          {
+            "X": 0,
+            "Y": 0,
+            "width": 985,
+            "height": 1032
+          },
+          {
+            "X": 985,
+            "Y": 422,
+            "width": 1574,
+            "height": 609
+          },
+          {
+            "X": 985,
+            "Y": 0,
+            "width": 1574,
+            "height": 494
+          }
+        ],
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}

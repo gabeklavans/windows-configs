@@ -8,24 +8,29 @@ Install-Module oh-my-posh -Scope CurrentUser
 ```
 
 ```
-mklink C:\Users\gabek\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json C:\Users\gabek\windows-configs\windows-terminal.json
+mklink %USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json %USERPROFILE%\windows-configs\windows-terminal.json
 ```
 
 ```
-mklink C:\Users\gabek\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 C:\Users\gabek\windows-configs\Microsoft.PowerShell_profile.ps1
+mklink %USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 %USERPROFILE%\windows-configs\Microsoft.PowerShell_profile.ps1
 ```
 
 ## Rainmeter
 
 ```
-mklink C:\Users\gabek\AppData\Roaming\Rainmeter\Rainmeter.ini C:\Users\gabek\windows-configs\Rainmeter\Rainmeter.ini
+mklink %USERPROFILE%\AppData\Roaming\Rainmeter\Rainmeter.ini %USERPROFILE%\windows-configs\Rainmeter\Rainmeter.ini
 ```
 
 ```
-mklink /D C:\Users\gabek\AppData\Roaming\Rainmeter\Layouts C:\Users\gabek\windows-configs\Rainmeter\Layouts
+mklink /D %USERPROFILE%\AppData\Roaming\Rainmeter\Layouts %USERPROFILE%\windows-configs\Rainmeter\Layouts
 ```
 
 ## PowerToys
+### Windows 10
 ```
-mklink %LocalAppData%\Microsoft\PowerToys\FancyZones\zones-settings.json C:\Users\gabek\windows-configs\zones-settings.json
+mklink %LocalAppData%\Microsoft\PowerToys\FancyZones\zones-settings.json %USERPROFILE%\windows-configs\zones-settings.json
+```
+### Windows 11
+```
+mklink /D %LocalAppData%\Microsoft\PowerToys\FancyZones %USERPROFILE%\windows-configs\FancyZones
 ```
